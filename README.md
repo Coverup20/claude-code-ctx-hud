@@ -12,6 +12,12 @@ The bar is not drawn with block characters. It is two boxes that share the row
 through the layout, so it fills the line at any width, with a pane docked
 beside the prompt or without one, and nothing has to count columns.
 
+## Requirements
+
+Claude Code with the mod API and the `PromptHint` render site. Built and run
+on **2.1.312**; the earliest build that carries both has not been established,
+so that is the version this is known to work on rather than a floor.
+
 ## Install
 
 The repository is its own marketplace:
