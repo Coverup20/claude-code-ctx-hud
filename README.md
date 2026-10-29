@@ -17,14 +17,14 @@ beside the prompt or without one, and nothing has to count columns.
 The repository is its own marketplace:
 
 ```bash
-claude plugin marketplace add <owner>/claude-code-ctx-hud
+claude plugin marketplace add Coverup20/claude-code-ctx-hud
 claude plugin install ctx-hud@claude-code-ctx-hud
 ```
 
 Or, inside a session:
 
 ```text
-/plugin install ctx-hud --marketplace <owner>/claude-code-ctx-hud
+/plugin install ctx-hud --marketplace Coverup20/claude-code-ctx-hud
 ```
 
 The mod loads at the start of a session, and reloads on its own whenever its

@@ -6,6 +6,7 @@
   "author": {
     "name": "Marzio Bordin"
   },
+  "repository": "https://github.com/Coverup20/claude-code-ctx-hud",
   "keywords": [
     "context-window",
     "hud",
