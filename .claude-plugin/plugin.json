@@ -1,5 +1,6 @@
 {
   "name": "ctx-hud",
+  "displayName": "CTX HUD",
   "version": "1.0.0",
   "description": "The context window on the line under the prompt: a bar that fills the row, the token counts, the model and the live agent count",
   "types": "./types/index.d.ts",
@@ -7,6 +8,7 @@
     "name": "Marzio Bordin"
   },
   "repository": "https://github.com/Coverup20/claude-code-ctx-hud",
+  "homepage": "https://github.com/Coverup20/claude-code-ctx-hud",
   "keywords": [
     "context-window",
     "hud",
