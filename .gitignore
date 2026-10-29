@@ -1,0 +1,4 @@
+# Written by the Claude Code engine each time it loads this mod, and rewritten
+# after every engine update. Not source.
+.claude-plugin/types/
+tsconfig.json

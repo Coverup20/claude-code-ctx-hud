@@ -1,0 +1,16 @@
+{
+  "name": "claude-code-ctx-hud",
+  "owner": {
+    "name": "Marzio Bordin"
+  },
+  "metadata": {
+    "description": "The context window on the line under the prompt, as a bar that fills the row"
+  },
+  "plugins": [
+    {
+      "name": "ctx-hud",
+      "description": "The context window on the line under the prompt: a bar that fills the row, the token counts, the model and the live agent count",
+      "source": "./"
+    }
+  ]
+}
