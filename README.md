@@ -4,9 +4,7 @@ A Claude Code mod that puts the context window on the dim line under the
 prompt: a bar that fills whatever width the row has, the token counts, the
 model, and how many agents are still running.
 
-```text
- CTX 34% ████████████░░░░░░░░░░░░░░░░ 66% free · 341k/1.00M · deep-1m[1m] · 2 agent
-```
+![The reading on the line under the prompt: the fill, the counts and the model](media/ctx-hud.png)
 
 The bar is not drawn with block characters. It is two boxes that share the row
 through the layout, so it fills the line at any width, with a pane docked
