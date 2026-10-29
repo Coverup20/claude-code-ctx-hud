@@ -115,7 +115,9 @@ export const register: Register = on => {
     // What the engine would have said here (`esc to interrupt`), drawn rather
     // than yielded to: giving the row back left it blank, since what the
     // engine has to say is often nothing at all.
-    const said = e.props.hint.trim()
+    // Typed as always there, but a missing one would throw and take the whole
+    // row with it, and this hook has no net under it.
+    const said = (e.props.hint ?? '').trim()
     const agents = now.agents > 0 ? ` · ${now.agents} agent` : ''
     // The leading space is the gap after whatever the engine put at the left
     // of the row: its own `·` separator, or `said` just below.

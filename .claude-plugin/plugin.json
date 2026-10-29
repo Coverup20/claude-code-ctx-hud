@@ -1,6 +1,6 @@
 {
   "name": "ctx-hud",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "The context window on the line under the prompt: a bar that fills the row, the token counts, the model and the live agent count",
   "types": "./types/index.d.ts",
   "author": {
